@@ -110,7 +110,7 @@ Use the checkboxes to select the elements filtered and click on Select button to
 
 Use the checkboxes to select the elements filtered and click on Isolate button to isolate it in the view.
 
-![OneFilter isolate elements](../../../../assets\images\OneFilter\OF-Sm-Isolate.gif)  
+![OneFilter isolate elements](../../../../assets\images\OneFilter\OF-Br-Isolate.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter-AutoCAD/DiRootsOne](https://diroots.com/autocad-plugins/dirootsone-for-autocad/).</sub>
 
 ```yaml
