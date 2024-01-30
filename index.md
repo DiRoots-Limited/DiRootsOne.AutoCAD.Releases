@@ -20,4 +20,4 @@ DiRootsOne is a single application bundle that includes free Autodesk AutoCAD Pl
 - Quick visualization by isolating or selecting objects in the view.
 - Save rule sets in profiles for sharing
 
-[Download](https://diroots.com/){: .btn .btn-di-orange }
+[Download](https://diroots.com/autocad-plugins/dirootsone-for-autocad/){: .btn .btn-di-orange }
