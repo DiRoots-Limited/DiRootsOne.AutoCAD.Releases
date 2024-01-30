@@ -22,7 +22,7 @@ Quickly find your elements in AutoCAD models. Create conditions rules to filter 
 This tab is very similar to the Filters tab, but it allows you to apply rules sets and conditions to filters with "and" and "or".
 The first step is to select whether you want to apply filters based on the Whole Model, the Current Selection or Active Space. Select the radio button to choose it.
 
-![OneFilter filter model view](../../../)  
+![OneFilter filter model view](../../../../assets\images\OneFilter\OF-Br-FilterModel.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter-AutoCAD/DiRootsOne](https://diroots.com/autocad-plugins/dirootsone-for-autocad/).</sub>
 
 ## Rule Sets
@@ -35,17 +35,17 @@ Note that there is a Rule Set by created by default, so you can edit it, or crea
 # Note:
 Double-click on the Rule Set to open the rename option.
 ```
-![OneFilter new rule set](../../../)  
+![OneFilter new rule set](../../../../assets\images\OneFilter\OF-Br-NewRule.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter-AutoCAD/DiRootsOne](https://diroots.com/autocad-plugins/dirootsone-for-autocad/).</sub>
 
 2. Select Rules and click on the Duplicate button to duplicate it.
 
-![OneFilter duplicate rule](../../../)  
+![OneFilter duplicate rule](../../../../assets\images\OneFilter\OF-Br-Duplicate.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter-AutoCAD/DiRootsOne](https://diroots.com/autocad-plugins/dirootsone-for-autocad/).</sub>
 
 3. Select Rules and click the Remove button to delete it.
 
-![OneFilter remove rules](../../../)  
+![OneFilter remove rules](../../../../assets\images\OneFilter\OF-Br-Remove.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter-AutoCAD/DiRootsOne](https://diroots.com/autocad-plugins/dirootsone-for-autocad/).</sub>
 
 ```yaml
@@ -69,7 +69,7 @@ This tab allows you to create specific filter conditions for each rule. For this
 
 Click on the Filter button to run the Condition Rule create.
 
-![OneFilter Definition](../../../)  
+![OneFilter Definition](../../../../assets\images\OneFilter\OF-Br-Definition.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter-AutoCAD/DiRootsOne](https://diroots.com/autocad-plugins/dirootsone-for-autocad/).</sub>
 
 ### Add condition
@@ -80,14 +80,14 @@ You can also apply more conditions to your rule. Click Add to insert a new defin
 # Note:
 Note that if you select the rule created and click Add, you will add a new definition as a child, thus creating a tree structure for your rule.
 ```
-![OneFilter Add condition](../../../)  
+![OneFilter Add condition](../../../../assets\images\OneFilter\OF-Br-AddCondition.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter-AutoCAD/DiRootsOne](https://diroots.com/autocad-plugins/dirootsone-for-autocad/).</sub>
 
 ### Remove
 
 Select the conditions created and click the Remove button to delete them.
 
-![OneFilter Remove condition](../../../)  
+![OneFilter Remove condition](../../../../assets\images\OneFilter\OF-Br-RemoveCondition.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter-AutoCAD/DiRootsOne](https://diroots.com/autocad-plugins/dirootsone-for-autocad/).</sub>
 
 ---
@@ -96,21 +96,21 @@ Select the conditions created and click the Remove button to delete them.
 
 Use the search box to search for filtered elements in the main table.
 
-![OneFilter search](../../../)  
+![OneFilter search](../../../../assets\images\OneFilter\OF-Br-Search.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter-AutoCAD/DiRootsOne](https://diroots.com/autocad-plugins/dirootsone-for-autocad/).</sub>
 
 ### Select
 
 Use the checkboxes to select the elements filtered and click on Select button to select it in the view.
 
-![OneFilter select elements](../../../)  
+![OneFilter select elements](../../../../assets\images\OneFilter\OF-Br-Select.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter-AutoCAD/DiRootsOne](https://diroots.com/autocad-plugins/dirootsone-for-autocad/).</sub>
 
 ### Isolate Object
 
 Use the checkboxes to select the elements filtered and click on Isolate button to isolate it in the view.
 
-![OneFilter isolate elements](../../../)  
+![OneFilter isolate elements](../../../../assets\images\OneFilter\OF-Sm-Isolate.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter-AutoCAD/DiRootsOne](https://diroots.com/autocad-plugins/dirootsone-for-autocad/).</sub>
 
 ```yaml
@@ -133,7 +133,7 @@ Steps:
 2. Click on Add New, and enter a Profile name.
 3. Click to save the profile.
 
-![OneFilter Creating profiles](../../../)  
+![OneFilter Creating profiles](../../../../assets\images\OneFilter\OF-Br-Profile.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter-AutoCAD/DiRootsOne](https://diroots.com/autocad-plugins/dirootsone-for-autocad/).</sub>
 
 ```
@@ -151,7 +151,7 @@ OneFilter profiles make it easy to export profiles to stay compliant with your c
 2. Use the Windows File Explorer select a folter to save it (e.g., in a shared folder, location network, or local computer).
 3. Click on the "Save" button to export the profile.
 
-![OneFilter exporting profiles](../../../)  
+![OneFilter exporting profiles](../../../../assets\images\OneFilter\OF-Br-ExportProfile.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter-AutoCAD/DiRootsOne](https://diroots.com/autocad-plugins/dirootsone-for-autocad/).</sub>
 
 ### Importing Profiles
@@ -162,7 +162,7 @@ OneFilter profiles make it easy to import existing profiles to stay compliant wi
 2. Use the Windows File Explorer to find the profile (e.g., in a shared folder, location network, or local computer)
 3. Click on the "Open" button to import the profile.
 
-![OneFilter importing profiles](../../../)  
+![OneFilter importing profiles](../../../../assets\images\OneFilter\OF-Br-ImportProfile.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter-AutoCAD/DiRootsOne](https://diroots.com/autocad-plugins/dirootsone-for-autocad/).</sub>
 
 ### Deleting Profiles
@@ -172,5 +172,5 @@ Steps:
 2. Click on the Delete icon next to the profiles list.
 3. Confirm.
 
-![OneFilter deleting profiles](../../../)  
+![OneFilter deleting profiles](../../../../assets\images\OneFilter\OF-Br-DeleteProfile.gif)  
 <sub>Note: the version on the image may not reflect the [latest version of OneFilter-AutoCAD/DiRootsOne](https://diroots.com/autocad-plugins/dirootsone-for-autocad/).</sub>
