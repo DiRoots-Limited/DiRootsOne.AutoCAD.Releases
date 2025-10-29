@@ -12,7 +12,7 @@ Quickly find elements in AutoCAD, Civil 3D, Advance Steel, AutoCAD Plant 3D, Aut
 AutoCAD, Civil 3D, Advance Steel, AutoCAD Plant 3D, AutoCAD Architecture, AutoCAD Electrical, AutoCAD MEP, AutoCAD Map 3D, AutoCAD Mechanical, etc.
 
 ### Supported AutoCAD Versions
-2021, 2022, 2023, and 2024.
+2021, 2022, 2023, 2024, 2025 and 2026.
 
 ### Useful links
 [User Guide](https://docs.dirootsone.diroots.com/)
