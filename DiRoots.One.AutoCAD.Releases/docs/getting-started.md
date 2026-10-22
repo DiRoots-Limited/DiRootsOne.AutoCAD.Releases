@@ -30,8 +30,8 @@ Download the [latest version of DiRootsOne](https://diroots.com/autocad-plugins/
 
 ### Standard Installation
 
+> This method is ideal for individuals who want to install DiRootsOne on one computer.
 {: .note }
-This method is ideal for individuals who want to install DiRootsOne on one computer.
 
 1. Run the DiRootsOne installer.
 
@@ -45,8 +45,8 @@ This method is ideal for individuals who want to install DiRootsOne on one compu
 
 ### Silent Installation
 
+> This method is ideal for IT administrators who want to deploy DiRootsOne to multiple computers.
 {: .note }
-This method is ideal for IT administrators who want to deploy DiRootsOne to multiple computers.
 
 - Install for all compatible AutoCAD versions:
 
@@ -98,14 +98,14 @@ DiRootsOne includes an updater that checks for new versions when AutoCAD closes.
 
 You can adjust the update check frequency (two days by default) and the download folder.
 
+> Automatic update checks can't be disabled in the user interface. You can reduce how often they run by setting the check frequency to 365 days.
 {: .new }
-Automatic update checks can't be disabled in the user interface. You can reduce how often they run by setting the check frequency to 365 days.
 
+> 
 {: .warning }
-We recommend keeping DiRootsOne up to date. Support is not provided for outdated versions.
 
+> IT administrators can change the update check frequency in the updater configuration file.
 {: .new }
-IT administrators can change the update check frequency in the updater configuration file.
 
 1. Go to `%programdata%\DiRoots.DiRootsOne\Settings`.
 
@@ -113,5 +113,5 @@ IT administrators can change the update check frequency in the updater configura
 
 3. Find `CheckFrequency=2` and change the value, for example, to `365`.
 
+> We recommend keeping DiRootsOne up to date. Support is not provided for outdated versions.
 {: .warning }
-We recommend keeping DiRootsOne up to date. Support is not provided for outdated versions.
