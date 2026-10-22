@@ -117,7 +117,7 @@ Select the filtered elements with the checkboxes, then click **Isolate** to isol
 > The image may show an earlier version of [OneFilter for AutoCAD](https://diroots.com/autocad-plugins/dirootsone-for-autocad/).
 {: .note }
 
-> Click End Isolation, or use the AutoCAD command "Unisolate" to return to the entire model view.
+> Click **End Isolation** or use the AutoCAD `UNISOLATE` command to return to the entire model view.
 {: .note }
 
 ---
