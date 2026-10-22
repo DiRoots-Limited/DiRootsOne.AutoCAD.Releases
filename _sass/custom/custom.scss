@@ -86,6 +86,13 @@ blockquote.important {
   border-color: #fecaca;
 }
 
+blockquote.note > p,
+blockquote.new > p,
+blockquote.warning > p,
+blockquote.important > p {
+  margin: 0;
+}
+
 p.note::before,
 blockquote.note::before,
 p.new::before,
