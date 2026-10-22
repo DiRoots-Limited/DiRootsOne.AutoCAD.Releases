@@ -48,6 +48,9 @@ Download the [latest version of DiRootsOne](https://diroots.com/autocad-plugins/
 > This method is ideal for IT administrators who want to deploy DiRootsOne to multiple computers.
 {: .note }
 
+> In these commands, `//` is replaced by the installer with the MSI package path. Place MSI options and properties after it.
+{: .note }
+
 - Install for all compatible AutoCAD versions:
 
   ```bat
@@ -74,7 +77,7 @@ Download the [latest version of DiRootsOne](https://diroots.com/autocad-plugins/
 
 ### Using the installer silently
 
-Uninstall DiRootsOne without user interaction:
+Uninstall DiRootsOne without user interaction. The `//` marker is replaced with the MSI package path:
 
 ```bat
 <installer-name>.exe /x // /qn
