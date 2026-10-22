@@ -2,7 +2,7 @@
 layout: default
 title: English | Video Tutorials
 parent: Video Tutorials
-grand_parent: OneFilter AutoCAD User Guide
+grand_parent: OneFilter AutoCAD
 nav_order: 1
 ---
 

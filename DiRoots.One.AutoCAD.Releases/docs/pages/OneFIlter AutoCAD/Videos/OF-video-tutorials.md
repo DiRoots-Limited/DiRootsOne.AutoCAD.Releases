@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Video Tutorials
-parent: OneFilter AutoCAD User Guide
+parent: OneFilter AutoCAD
 has_children: true
 nav_order: 100
 ---

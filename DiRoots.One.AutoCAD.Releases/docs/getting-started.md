@@ -7,12 +7,7 @@ nav_order: 2
 # Getting Started
 {: .no_toc }
 
-DiRootsOne has Autodesk AutoCAD Productivity Tools to Filter elements.
-
-Not permitted:
--	Sell/resell
--	make modifications to the software.
-{: .fs-6 .fw-300 }
+Install DiRootsOne for AutoCAD to filter objects and layers by type, layer, or property.
 
 ## Table of contents
 {: .no_toc .text-delta }
@@ -26,112 +21,97 @@ Not permitted:
 
 Download the [latest version of DiRootsOne](https://diroots.com/autocad-plugins/dirootsone-for-autocad/).
 
-
 ## Install
 
 ### Compatibility
-- Windows 7, 8, 10 and 11.
-- AutoCAD 2021, 2022, 2023, and 2024.
+
+- Windows 7, 8, 10, and 11.
+- AutoCAD 2021, 2022, 2023, 2024, 2025, and 2026.
 
 ### Standard Installation
 
-```yaml
-This method is ideal for individuals who want to install DiRootsOne in one computer.
-```
+{: .note }
+This method is ideal for individuals who want to install DiRootsOne on one computer.
 
-1. Run DiRootsOne installer.
+1. Run the DiRootsOne installer.
 
-2. Select the AutoCAD versions and click 'Install'.
+2. Select the AutoCAD versions and click **Install**.
 
-![DiRootsOne Installation First Step](../../assets\images\Commons\DO-Ac-Install.gif)
+   ![DiRootsOne installation first step](../../assets/images/Commons/DO-Ac-Install.gif)
 
-3. Wait for the installation to complete and click 'Finish'.
+3. Wait for the installation to complete and click **Finish**.
 
-![DiRootsOne Installation Finish](../../assets\images\Commons\DO-Ac-Finish.png)
+   ![DiRootsOne installation finish](../../assets/images/Commons/DO-Ac-Finish.png)
 
 ### Silent Installation
 
-```yaml
+{: .note }
 This method is ideal for IT administrators who want to deploy DiRootsOne to multiple computers.
-```
 
-- Install for all compatible AutoCAD versions.
+- Install for all compatible AutoCAD versions:
 
-```yaml
-# This method will silently install DiRootsOne for all compatible AutoCAD versions.
+```bat
 <installer-name>.exe /i // /qn accept_eula=1
 ```
 
-- Exclude specific AutoCAD versions.
+- Exclude specific AutoCAD versions. This example excludes AutoCAD 2021, 2022, and 2023:
 
-```yaml
-# In this example DiRootsOne will NOT be installed for AutoCAD 2017, 2018, and 2019.
-<installer-name>.exe /i // /qn accept_eula=1 autocad2017="" autocad2018="" autocas2019=""
+```bat
+<installer-name>.exe /i // /qn accept_eula=1 autocad2021="" autocad2022="" autocad2023=""
 ```
 
 ## Uninstall
 
-### Using the installer User Interface
+### Using the installer user interface
 
-1. Run DiRootsOne installer.
+1. Run the DiRootsOne installer.
 
-2. Select and click 'Remove'.
+2. Select the AutoCAD versions and click **Remove**.
 
-![DiRootsOne Uninstall](../../assets\images\Commons\DO-Ac-Unistall.png)
+   ![DiRootsOne uninstall](../../assets/images/Commons/DO-Ac-Unistall.png)
 
-3 . Wait for the uninstallation to complete and click 'Finish'.
+3. Wait for the uninstallation to complete and click **Finish**.
 
 ### Using the installer silently
 
-Uninstall DiRootsOne without user interaction.
+Uninstall DiRootsOne without user interaction:
 
-```yaml
-# This method will remove DiRootsOne from your computer.
+```bat
 <installer-name>.exe /x // /qn
 ```
 
-### From the control panel
+### From the Control Panel
 
-1. In the search box on the taskbar, type Control Panel and select it from the results.
+1. In the taskbar search box, type **Control Panel** and open it.
 
-2. Select Programs > Programs and Features.
+2. Select **Programs > Programs and Features**.
 
-3. Press and hold (or right-click) on the program you want to remove and select Uninstall or Uninstall/Change. Then follow the directions on the screen.
+3. Right-click the program you want to remove and select **Uninstall** or **Uninstall/Change**, then follow the prompts.
 
 ## Updates
 
-DiRootsOne includes an updater to help you keep it up to date. 
-The updater will:
-- notify you whenever a new version is released (the action is triggered on AutoCAD close event).
-- ask you to install now or to remind you tomorrow.
+DiRootsOne includes an updater that checks for new versions when AutoCAD closes. It lets you install the update or be reminded the next day.
 
-![DiRootsOne Updater UI](../../assets\images\Commons\DO-Ac-Update.png)
+![DiRootsOne updater](../../assets/images/Commons/DO-Ac-Update.png)
 
 ### Updater Settings
 
-The following Update Options can be tweaked:
-- activate automatic updates.
-- check for updates frequency (the default value is 2 days). 
-- change the downloads folder.
+You can adjust the update check frequency (two days by default) and the download folder.
 
-```yaml
-# Pro Tip for Users
-By default the automatic updates can't be disabled.
-To go around it, you can set up the check for updates frequency to 365 days, for example.
-# Keep in mind that it' recommended to keep your apps updated. Plus, we do not provide support for outdated applications.
-```
+{: .new }
+Automatic update checks can't be disabled in the user interface. You can reduce how often they run by setting the check frequency to 365 days.
 
-```yaml
-# Pro Tip for IT Administrators
-By default the automatic updates can't be disabled.
-To go around it, there's a configuration file that can be tweaked.
+{: .warning }
+We recommend keeping DiRootsOne up to date. Support is not provided for outdated versions.
 
-# Steps required
-- go to %programdata%\DiRoots.DiRootsOne\Settings
-- open the 'updater.ini' file
-- Search for the line 'CheckFrequency=2' and change the value to 365, for example.
+{: .new }
+IT administrators can change the update check frequency in the updater configuration file.
 
-# Keep in mind that it' recommended to keep your apps updated. Plus, we do not provide support for outdated applications.
-```
+1. Go to `%programdata%\DiRoots.DiRootsOne\Settings`.
 
-<button class="btn js-toggle-dark-mode">Preview dark color scheme</button>
+2. Open `updater.ini`.
+
+3. Find `CheckFrequency=2` and change the value, for example, to `365`.
+
+{: .warning }
+We recommend keeping DiRootsOne up to date. Support is not provided for outdated versions.

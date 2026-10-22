@@ -2,7 +2,7 @@
 layout: default
 title: About
 nav_order: 1
-description: "DiRootsOne User Guide."
+description: "DiRootsOne for Autodesk AutoCAD."
 permalink: /
 ---
 
@@ -13,6 +13,7 @@ permalink: /
 DiRootsOne is a single application bundle that includes free Autodesk AutoCAD Plugins to boost your productivity. DiRootsOne allows seamless interoperability between our plugins, opening doors to new workflows and ways to get your job done faster and better.
 
 ## Core Features
+{: .no_toc }
 
 - Filter Objects and Layers.
 - Filter Objects and Layers by their associated data or properties.
