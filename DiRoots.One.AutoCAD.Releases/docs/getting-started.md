@@ -50,15 +50,15 @@ Download the [latest version of DiRootsOne](https://diroots.com/autocad-plugins/
 
 - Install for all compatible AutoCAD versions:
 
-```bat
-<installer-name>.exe /i // /qn accept_eula=1
-```
+  ```bat
+  <installer-name>.exe /i // /qn accept_eula=1
+  ```
 
 - Exclude specific AutoCAD versions. This example excludes AutoCAD 2021, 2022, and 2023:
 
-```bat
-<installer-name>.exe /i // /qn accept_eula=1 autocad2021="" autocad2022="" autocad2023=""
-```
+  ```bat
+  <installer-name>.exe /i // /qn accept_eula=1 autocad2021="" autocad2022="" autocad2023=""
+  ```
 
 ## Uninstall
 
