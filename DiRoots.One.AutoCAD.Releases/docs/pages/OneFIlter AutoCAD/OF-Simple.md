@@ -1,13 +1,16 @@
 ---
 layout: default
-title: Simple
-parent: OneFilter AutoCAD User Guide
-nav_order: 1
+title: OneFilter AutoCAD
+has_children: true
+nav_order: 3
 ---
 
-# OneFilter
+# OneFilter AutoCAD
 {: .no_toc }
-Quickly find your elements in AutoCAD models. Create conditions rules to filter objects and layers based on their properties and datas.
+
+OneFilter helps you find objects in AutoCAD by filtering objects and layers by their properties.
+
+## Table of contents
 {: .no_toc .text-delta }
 
 1. TOC
@@ -15,78 +18,82 @@ Quickly find your elements in AutoCAD models. Create conditions rules to filter 
 
 ---
 
-# Simple
+## Simple
 
-The Simple is the first tab of OneFilter, and this tool allows you to filter elements Objects and refine the filter based on their properties and datas. Let's get started:
+The Simple tab filters objects and layers, and lets you refine the results by property.
 
-1. The first step is to select whether you want to apply filters based on the Whole Model, the Current Selection or Active Space. Select the radio button to choose it.
+1. Select whether to filter the Whole Model, the Current Selection, or Active Space.
 
-![OneFilter filter model view](../../../../assets\images\OneFilter\OF-Sm-FilterModel.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of OneFilter-AutoCAD/DiRootsOne](https://diroots.com/autocad-plugins/dirootsone-for-autocad/).</sub>
+   ![OneFilter filter model view](../../../../assets/images/OneFilter/OF-Sm-FilterModel.gif)
 
-2. The next step is to choose how you want to filter the model. To do this, simply activate the Objects and Layers table using the switch button in the table header.
+   > The image may show an earlier version of [OneFilter for AutoCAD](https://diroots.com/autocad-plugins/dirootsone-for-autocad/).
+   {: .note }
 
-3. Now use the checkboxes to select the objects/layers you want to filter. When you select them, the elements will be immediately filtered and displayed in the table on the right.
+2. Activate the Objects and Layers table with the switch in the table header.
 
-```yaml
-# Note:
-Use the search box to search by objects and layers.
-```
+3. Select the objects or layers to filter. The matching elements appear in the table on the right.
 
-![OneFilter select objects and layers](../../../../assets\images\OneFilter\OF-Sm-Object-Layer.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of OneFilter-AutoCAD/DiRootsOne](https://diroots.com/autocad-plugins/dirootsone-for-autocad/).</sub>
+   > Use the search box to find objects and layers.
+   {: .note }
 
----
+   ![OneFilter select objects and layers](../../../../assets/images/OneFilter/OF-Sm-Object-Layer.gif)
+
+   > The image may show an earlier version of [OneFilter for AutoCAD](https://diroots.com/autocad-plugins/dirootsone-for-autocad/).
+   {: .note }
 
 ## Filter by Property
 
-OneFilter Simple allows you, in addition to immediately filtering the selected objects/layers, to refine the filter by searching for properties, choosing a condition and the value to search for.
+Refine the selected objects or layers by choosing a property, condition, and value.
 
-1. Open the first selection list and choose the property.
+1. Open the first selection list and choose a property.
 
-2. Click on the second list and select the condition you want to apply.
+2. Open the second list and choose a condition.
 
-3. Enter a property value or select in the drop-down list, and click to filter it.
+3. Enter or select a property value, then click **Filter**.
 
-```yaml
-# Note:
-Click on Clear button to reset the filter by property.
-```
+   > Click **Clear** to reset the property filter.
+   {: .note }
 
-![OneFilter filter by properties](../../../../assets\images\OneFilter\OF-Sm-Properties.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of OneFilter-AutoCAD/DiRootsOne](https://diroots.com/autocad-plugins/dirootsone-for-autocad/).</sub>
+   ![OneFilter filter by properties](../../../../assets/images/OneFilter/OF-Sm-Properties.gif)
 
----
+   > The image may show an earlier version of [OneFilter for AutoCAD](https://diroots.com/autocad-plugins/dirootsone-for-autocad/).
+   {: .note }
 
 ### Search
 
-Use the search box to search for filtered elements in the main table.
+Use the search box to find filtered elements in the main table.
 
-![OneFilter search](../../../../assets\images\OneFilter\OF-Sm-Search.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of OneFilter-AutoCAD/DiRootsOne](https://diroots.com/autocad-plugins/dirootsone-for-autocad/).</sub>
+![OneFilter search](../../../../assets/images/OneFilter/OF-Sm-Search.gif)
+
+> The image may show an earlier version of [OneFilter for AutoCAD](https://diroots.com/autocad-plugins/dirootsone-for-autocad/).
+{: .note }
 
 ### Select
 
-Use the checkboxes to select the elements filtered and click on Select button to select it in the view.
+Select elements with the checkboxes, then click **Select** to select them in the view.
 
-![OneFilter select elements](../../../../assets\images\OneFilter\OF-Sm-Select.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of OneFilter-AutoCAD/DiRootsOne](https://diroots.com/autocad-plugins/dirootsone-for-autocad/).</sub>
+![OneFilter select elements](../../../../assets/images/OneFilter/OF-Sm-Select.gif)
 
-### Isolate Object
+> The image may show an earlier version of [OneFilter for AutoCAD](https://diroots.com/autocad-plugins/dirootsone-for-autocad/).
+{: .note }
 
-Use the checkboxes to select the elements filtered and click on Isolate button to isolate it in the view.
+### Isolate Objects
 
-![OneFilter isolate elements](../../../../assets\images\OneFilter\OF-Sm-Isolate.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of OneFilter-AutoCAD/DiRootsOne](https://diroots.com/autocad-plugins/dirootsone-for-autocad/).</sub>
+Select elements with the checkboxes, then click **Isolate** to isolate them in the view.
 
-```yaml
-# Note:
-Click End Isolation, or use the AutoCAD command "Unisolate" to return to the entire model view.
-```
+![OneFilter isolate elements](../../../../assets/images/OneFilter/OF-Sm-Isolate.gif)
+
+> The image may show an earlier version of [OneFilter for AutoCAD](https://diroots.com/autocad-plugins/dirootsone-for-autocad/).
+{: .note }
+
+> Click **End Isolation** or use the AutoCAD `UNISOLATE` command to return to the full model view.
+{: .note }
 
 ### Reset
 
-Click on Reset button to clear all the filtered elements.
+Click **Reset** to clear the filtered elements.
 
-![OneFilter Reset](../../../../assets\images\OneFilter\OF-Sm-Reset.gif)  
-<sub>Note: the version on the image may not reflect the [latest version of OneFilter-AutoCAD/DiRootsOne](https://diroots.com/autocad-plugins/dirootsone-for-autocad/).</sub>
+![OneFilter reset](../../../../assets/images/OneFilter/OF-Sm-Reset.gif)
+
+> The image may show an earlier version of [OneFilter for AutoCAD](https://diroots.com/autocad-plugins/dirootsone-for-autocad/).
+{: .note }
