@@ -26,7 +26,7 @@ Download the [latest version of DiRootsOne](https://diroots.com/autocad-plugins/
 ### Compatibility
 
 - Windows 7, 8, 10, and 11.
-- AutoCAD 2021, 2022, 2023, 2024, 2025, and 2026.
+- AutoCAD 2021, 2022, 2023, 2024, 2025, 2026, and 2027.
 
 ### Standard Installation
 
